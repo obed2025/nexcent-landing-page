@@ -1,0 +1,77 @@
+@font-face {
+  font-family: 'Inter';
+  font: optional;
+  src: url('../../assets/fonts/Inter-VariableFont_opsz\,wght.ttf');
+}
+
+@font-face {
+  font-family: 'Inter Italic';
+  font-style: italic;
+  src: url('../../assets/fonts/Inter-Italic-VariableFont_opsz\,wght.ttf');
+}
+
+html {
+  font-family: 'Inter', sans-serif;
+}
+
+h1,
+.h1 {
+  font-size: calc((64 / 16) * 1rem);
+  line-height: calc((76 / 16) * 1rem);
+}
+
+h2,
+.h2 {
+  font-size: calc((36 / 16) * 1rem);
+  line-height: calc((44 / 16) * 1rem);
+}
+
+h3,
+.h3 {
+  font-size: calc((28 / 16) * 1rem);
+  line-height: calc((36 / 16) * 1rem);
+}
+
+h4,
+.h4 {
+  font-size: calc((20 / 16) * 1rem);
+  line-height: calc((28 / 16) * 1rem);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+}
+
+.body-1,
+p {
+  font-size: calc((18 / 16) * 1rem);
+  line-height: calc((28 / 16) * 1rem);
+}
+
+.body-2,
+.body-3 {
+  font-size: calc((16 / 16) * 1rem);
+  line-height: calc((24 / 16) * 1rem);
+}
+
+.body-2 {
+  font-weight: 500;
+}
+
+.body-4 {
+  font-size: calc((13 / 16) * 1rem);
+  line-height: calc((24 / 16) * 1rem);
+}
+
+[class*='body-'] {
+  font-weight: 400;
+}
+
+[class*='body-'].medium {
+  font-weight: 500;
+}

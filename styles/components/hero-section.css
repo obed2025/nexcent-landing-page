@@ -1,0 +1,30 @@
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 2rem;
+  padding-block: 4rem;
+}
+
+.hero-section__frame-1,
+.hero-section__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-section__frame-1 {
+  gap: 2rem;
+}
+
+.hero-section__text {
+  gap: 1rem;
+}
+
+.hero-section__text-header span {
+  display: block;
+  color: var(--d-grey);
+}
+
+.hero-section__cta {
+  width: fit-content;
+}

@@ -1,0 +1,38 @@
+.achievements {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-block: 3rem;
+}
+
+.achievements__left {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.achievements__left .highlight {
+  display: block;
+}
+
+.achievements__right {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 2.5rem 1rem;
+}
+
+.achievements__box {
+  display: grid;
+  grid-template-columns: 3rem 1fr;
+  gap: 1rem;
+}
+
+.achievements__box img {
+  width: 3rem;
+  height: 3rem;
+  object-fit: contain;
+}
+
+.achievements__box-title {
+  margin-bottom: 0;
+}

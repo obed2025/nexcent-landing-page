@@ -1,0 +1,60 @@
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.25rem;
+  transition: background-color 0.2s ease-in-out, border 0.2s ease-in-out;
+
+  padding-inline: 2rem;
+  padding-block: 1rem;
+  font-size: calc((18 / 16) * 1rem);
+  line-height: calc((24 / 16) * 1rem);
+}
+
+.btn.medium {
+  padding-block: calc((14 / 16) * 1rem);
+}
+
+.btn.small {
+  padding-block: calc((8 / 16) * 1rem);
+  padding-inline: calc((24 / 16) * 1rem);
+}
+
+.btn.with-icon {
+  gap: 0.5rem;
+}
+
+.btn.disabled {
+  background-color: var(--silver);
+  color: var(--grey-blue);
+}
+
+.btn.primary {
+  background-color: var(--primary);
+  color: var(--white);
+}
+
+.btn.secondary {
+  background-color: var(--white);
+  color: var(--primary);
+  border: calc((2 / 16) * 1rem) solid var(--primary);
+}
+
+.btn.tertiary {
+  background-color: transparent;
+  color: var(--primary);
+}
+
+.btn.primary:focus,
+.btn.tertiary:focus {
+  border: calc((2 / 16) * 1rem) solid var(--d-grey);
+}
+
+.btn.secondary:hover,
+.btn.tertiary:hover {
+  background-color: var(--silver);
+}
+
+.btn.secondary:focus {
+  border-color: var(--l-grey);
+}

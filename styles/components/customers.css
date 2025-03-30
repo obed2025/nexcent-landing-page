@@ -1,0 +1,24 @@
+.customers {
+  display: grid;
+  grid-template-columns: calc((326 / 16) * 1rem) 1fr;
+  gap: 4.875rem;
+  padding-block: 3rem;
+}
+
+.customers__text-and-logos,
+.customers__text,
+.customers__logos {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.customers__text {
+  gap: 1rem;
+}
+
+.customers__logos {
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}

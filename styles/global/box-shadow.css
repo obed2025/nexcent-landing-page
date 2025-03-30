@@ -1,0 +1,8 @@
+:root {
+  --shadow-2px: 0 0.125rem 0.25rem #abbed199;
+  --shadow-4px: 0 0.25rem 0.5rem #abbed166;
+  --shadow-6px: 0 0.375rem 0.75rem #abbed14d;
+  --shadow-6-4px: 0 0.4rem 0.8rem #abbed166;
+  --shadow-8px: 0 0.5rem 1rem #abbed166;
+  --shadow-16px: 0 1rem 2rem #abbed14d;
+}

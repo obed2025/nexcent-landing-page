@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: https://ogp.me/ns#">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assets/Icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <title>Nexcent</title>
+    <meta
+      name="description"
+      content="Responsive landing page using HTML & CSS only!"
+    />
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://nexcent-by-obed.vercel.app" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Nexcent" />
+    <meta
+      property="og:description"
+      content="Responsive landing page using HTML & CSS only!"
+    />
+    <meta
+      property="og:image"
+      content="https://drive.google.com/thumbnail?id=1aXrUunc9UpOL-2FjXRHGN9YwimxN7wKx"
+    />
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="twitter:domain" content="nexcent-by-obed.vercel.app" />
+    <meta property="twitter:url" content="https://nexcent-by-obed.vercel.app" />
+    <meta name="twitter:title" content="Nexcent" />
+    <meta
+      name="twitter:description"
+      content="Responsive landing page using HTML & CSS only!"
+    />
+    <meta
+      name="twitter:image"
+      content="https://drive.google.com/thumbnail?id=1aXrUunc9UpOL-2FjXRHGN9YwimxN7wKx"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <a href="/">
+          <img class="header__logo" src="./assets/Logo.svg" alt="Logo" />
+        </a>
+        <input type="checkbox" name="open" id="open" />
+        <nav class="header__nav nav">
+          <a class="nav__link" href="/">Home</a>
+          <a class="nav__link" href="#service">Service</a>
+          <a class="nav__link" href="#feature">Feature</a>
+          <a class="nav__link" href="#product">Product</a>
+          <a class="nav__link" href="#testimonial">Testimonial</a>
+          <a class="nav__link" href="#faq">FAQ</a>
+          <div class="header__auth small-screen-only">
+            <a class="btn tertiary small" href="/login"> Login </a>
+            <a class="btn primary small" href="/sign-up"> Sign Up </a>
+          </div>
+        </nav>
+        <form class="check-box header-mobile-menu-icon small-screen-only">
+          <label for="open">
+            <img src="./assets/images/Nav/🦆 icon _Bars_.svg" alt="Bars" />
+          </label>
+        </form>
+        <div class="header__auth small-screen-only--hidden">
+          <a class="btn tertiary small" href="/login"> Login </a>
+          <a class="btn primary small" href="/sign-up"> Sign Up </a>
+        </div>
+      </header>
+      <div class="hero-section">
+        <div class="hero-section__frame-1">
+          <div class="hero-section__text">
+            <div class="hero-section__text-header h1">
+              <span>Lessons and insights </span>
+              <span class="highlight">from 8 years </span>
+            </div>
+            <p class="hero-section__text-body">
+              Where to grow your business as a photographer: site or social
+              media?
+            </p>
+          </div>
+          <button class="hero-section__cta btn primary medium">Register</button>
+        </div>
+        <div class="hero-section__illustration">
+          <img src="./assets/images/Illustration.svg" alt="Illustration" />
+        </div>
+      </div>
+    </div>
+    <div class="container white after-hero-section">
+      <div class="clients">
+        <div class="clients__text">
+          <h2>Our Clients</h2>
+          <p>We have been working with some Fortune 500+ clients</p>
+        </div>
+        <div class="clients__logos">
+          <img src="./assets/images/Logo.svg" alt="Logo1" />
+          <img src="./assets/images/Logo-1.svg" alt="Logo2" />
+          <img src="./assets/images/Logo-2.svg" alt="Logo3" />
+          <img src="./assets/images/Logo-3.svg" alt="Logo4" />
+          <img src="./assets/images/Logo-4.svg" alt="Logo5" />
+          <img src="./assets/images/Logo-5.svg" alt="Logo6" />
+          <img src="./assets/images/Logo-6.svg" alt="Logo7" />
+        </div>
+      </div>
+      <div class="community">
+        <div class="community__text">
+          <h2>Manage your entire community in a single system</h2>
+          <p>Who is Nextcent suitable for?</p>
+        </div>
+        <div class="community__frame">
+          <div class="community__frame-item">
+            <img src="./assets/images/Icon.svg" alt="Icon 1" />
+            <h3>Membership Organizations</h3>
+            <p class="body-2">
+              Our membership management software provides full automation of
+              membership renewals and payments
+            </p>
+          </div>
+          <div class="community__frame-item">
+            <img src="./assets/images/Icon (1).svg" alt="Icon 2" />
+            <h3>National Associations</h3>
+            <p class="body-2">
+              Our membership management software provides full automation of
+              membership renewals and payments
+            </p>
+          </div>
+          <div class="community__frame-item">
+            <img src="./assets/images/Icon (2).svg" alt="Icon 3" />
+            <h3>Clubs And Groups</h3>
+            <p class="body-2">
+              Our membership management software provides full automation of
+              membership renewals and payments
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="unlock">
+        <div class="unlock__img">
+          <img src="./assets/images/rafiki.svg" alt="Mobile auth" />
+        </div>
+        <div class="unlock__text">
+          <h2>The unseen of spending three years at Pixelgrade</h2>
+          <p class="body-2">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit
+            amet justo ipsum. Sed accumsan quam vitae est varius fringilla.
+            Pellentesque placerat vestibulum lorem sed porta. Nullam mattis
+            tristique iaculis. Nullam pulvinar sit amet risus pretium auctor.
+            Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec
+            elementum pulvinar odio.
+          </p>
+          <button class="btn small primary unlock__cta">Learn more</button>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="achievements">
+        <div class="achievements__left">
+          <div>
+            <h3>
+              <span> Helping a local </span>
+              <span class="highlight">business reinvent itself</span>
+            </h3>
+          </div>
+          <p class="body-2">
+            We reached here with our hard work and dedication
+          </p>
+        </div>
+        <div class="achievements__right">
+          <div class="achievements__box">
+            <img
+              src="./assets/images/achievements/Vector.svg"
+              alt="Icon 1"
+              class="achievements__box-icon"
+            />
+            <div>
+              <h4 class="achievements__box-title">2,245,341</h4>
+              <p class="body-3" class="achievements__box-text">Members</p>
+            </div>
+          </div>
+          <div class="achievements__box">
+            <img
+              src="./assets/images/achievements/Vector-1.svg"
+              alt="Icon 2"
+              class="achievements__box-icon"
+            />
+            <div>
+              <h4 class="achievements__box-title">46,328</h4>
+              <p class="body-3" class="achievements__box-text">Clubs</p>
+            </div>
+          </div>
+          <div class="achievements__box">
+            <img
+              src="./assets/images/achievements/Icon (2).svg"
+              alt="Icon 3"
+              class="achievements__box-icon"
+            />
+            <div>
+              <h4 class="achievements__box-title">828,867</h4>
+              <p class="body-3" class="achievements__box-text">
+                Event Bookings
+              </p>
+            </div>
+          </div>
+          <div class="achievements__box">
+            <img
+              src="./assets/images/achievements/Icon (3).svg"
+              alt="Icon 4"
+              class="achievements__box-icon"
+            />
+            <div>
+              <h4 class="achievements__box-title">1,926,436</h4>
+              <p class="body-3" class="achievements__box-text">Payments</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container white">
+      <div class="calendar">
+        <div class="calendar__img">
+          <img src="./assets/images/pana.svg" alt="Mobile login" />
+        </div>
+        <div class="calendar__text">
+          <h2>How to design your site footer like we did</h2>
+          <p class="body-2">
+            Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor,
+            augue nec tincidunt molestie, massa nunc varius arcu, at scelerisque
+            elit erat a magna. Donec quis erat at libero ultrices mollis. In hac
+            habitasse platea dictumst. Vivamus vehicula leo dui, at porta nisi
+            facilisis finibus. In euismod augue vitae nisi ultricies, non
+            aliquet urna tincidunt. Integer in nisi eget nulla commodo faucibus
+            efficitur quis massa. Praesent felis est, finibus et nisi ac,
+            hendrerit venenatis libero. Donec consectetur faucibus ipsum id
+            gravida.
+          </p>
+          <button class="btn small primary calendar__cta">Learn more</button>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="customers">
+        <div class="customers__img">
+          <img src="./assets/images/image 9.png" alt="image 9" />
+        </div>
+        <div class="customers__text-and-logos">
+          <div class="customers__text">
+            <p class="body-2">
+              Maecenas dignissim justo eget nulla rutrum molestie. Maecenas
+              lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu
+              enim metus. Vivamus sed libero ornare, tristique quam in, gravida
+              enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet
+              elit at ligula molestie, nec molestie mi blandit. Suspendisse
+              cursus tellus sed augue ultrices, quis tristique nulla sodales.
+              Suspendisse eget lorem eu turpis vestibulum pretium. Suspendisse
+              potenti. Quisque malesuada enim sapien, vitae placerat ante
+              feugiat eget. Quisque vulputate odio neque, eget efficitur libero
+              condimentum id. Curabitur id nibh id sem dignissim finibus ac sit
+              amet magna.
+            </p>
+            <div>
+              <h3 class="highlight">Tim Smith</h3>
+              <p class="body-3">British Dragon Boat Racing Association</p>
+            </div>
+          </div>
+          <div class="customers__logos">
+            <img src="./assets/images/logos/Logo.svg" alt="Logo-1" />
+            <img src="./assets/images/logos/Logo-1.svg" alt="Logo-2" />
+            <img src="./assets/images/logos/Logo-2.svg" alt="Logo-3" />
+            <img src="./assets/images/logos/Logo-3.svg" alt="Logo-4" />
+            <img src="./assets/images/logos/Logo-4.svg" alt="Logo-5" />
+            <img src="./assets/images/logos/Logo-5.svg" alt="Logo-6" />
+            <button class="btn tertiary medium">Meet all customers →</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container white community-updates">
+      <div class="community-updates__text">
+        <h2>Caring is the new marketing</h2>
+        <p class="body-2">
+          The Nextcent blog is the best place to read about the latest
+          membership insights, trends and more. See who's joining the community,
+          read about how our community are increasing their membership income
+          and lot's more.
+        </p>
+      </div>
+      <div class="community-updates__cards">
+        <div class="community-updates__single-card">
+          <div class="community-updates__single-card-img">
+            <img src="./assets/images/image 18.png" alt="image 18" />
+          </div>
+          <div class="community-updates__single-card-box">
+            <p class="body-3">
+              Creating Streamlined Safeguarding Processes with OneRen
+            </p>
+            <button class="tertiary small btn">Readmore →</button>
+          </div>
+        </div>
+        <div class="community-updates__single-card">
+          <div class="community-updates__single-card-img">
+            <img src="./assets/images/image 19.png" alt="image 19" />
+          </div>
+          <div class="community-updates__single-card-box">
+            <p class="body-3">
+              What are your safeguarding responsibilities and how can you manage
+              them?
+            </p>
+            <button class="tertiary small btn">Readmore →</button>
+          </div>
+        </div>
+        <div class="community-updates__single-card">
+          <div class="community-updates__single-card-img">
+            <img src="./assets/images/image 20.png" alt="image 20" />
+          </div>
+          <div class="community-updates__single-card-box">
+            <p class="body-3">
+              Revamping the Membership Model with Triathlon Australia
+            </p>
+            <button class="tertiary small btn">Readmore →</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container before-footer">
+      <h2>Pellentesque suscipit fringilla libero eu.</h2>
+      <button class="primary btn medium">Get a Demo →</button>
+    </div>
+    <div class="container black">
+      <div class="footer body-3">
+        <div class="footer__company-info">
+          <img src="./assets/images/footer/Logo.svg" alt="Logo" />
+          <div>
+            <p>Copyright © 2020 Nexcent ltd.</p>
+            <p>All rights reserved</p>
+          </div>
+          <div class="footer__social-links">
+            <img
+              src="./assets/images/social-icons/Social Icons.svg"
+              alt="social icon 1"
+            />
+            <img
+              src="./assets/images/social-icons/Social Icons-1.svg"
+              alt="social icon 2"
+            />
+            <img
+              src="./assets/images/social-icons/Social Icons-2.svg"
+              alt="social icon 3"
+            />
+            <img
+              src="./assets/images/social-icons/Social Icons-3.svg"
+              alt="social icon 4"
+            />
+          </div>
+        </div>
+        <div class="footer__links">
+          <div class="footer__links-col">
+            <h3>Company</h3>
+            <a href="/about">About us</a>
+            <a href="/blog">Blog</a>
+            <a href="/contact">Contact us</a>
+            <a href="/pricing">Pricing</a>
+            <a href="/testimonials">Testimonials</a>
+          </div>
+          <div class="footer__links-col">
+            <h3>Support</h3>
+            <a href="/help">Help center</a>
+            <a href="/terms-of-service">Terms of service</a>
+            <a href="/legal">Legal</a>
+            <a href="/privacy-policy">Privacy policy</a>
+            <a href="/status">Status</a>
+          </div>
+          <div class="footer__links-col">
+            <h3>Stay up to date</h3>
+            <div class="footer__subscribe">
+              <input
+                type="email"
+                class="body-2"
+                placeholder="Your email address"
+              />
+              <img src="./assets/images/footer/Vector.svg" alt="subscribe" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

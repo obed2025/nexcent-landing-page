@@ -1,0 +1,18 @@
+/* Global CSS */
+@import url('./global/reset.css');
+@import url('./global/colors.css');
+@import url('./global/typography.css');
+@import url('./global/box-shadow.css');
+@import url('./global/responsive.css');
+
+/* Components */
+@import url('./components/button.css');
+@import url('./components/container.css');
+@import url('./components/header.css');
+@import url('./components/hero-section.css');
+@import url('./components/after-hero-section.css');
+@import url('./components/achievements.css');
+@import url('./components/customers.css');
+@import url('./components/community-updates.css');
+@import url('./components/before-footer.css');
+@import url('./components/footer.css');

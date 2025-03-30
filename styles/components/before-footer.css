@@ -1,0 +1,10 @@
+.before-footer {
+  padding-inline: 25%;
+  text-align: center;
+  padding-block: 3rem;
+}
+
+.before-footer .btn {
+  width: fit-content;
+  margin-top: 2rem;
+}

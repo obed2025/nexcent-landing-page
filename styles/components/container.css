@@ -1,0 +1,19 @@
+.container {
+  width: 100%;
+  background-color: var(--silver);
+}
+
+.container > * {
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.container.white {
+  background-color: var(--white);
+}
+
+.container.black {
+  background-color: var(--black);
+  color: var(--white);
+}
